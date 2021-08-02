@@ -11,6 +11,8 @@
     <properties>
         <maven.compiler.source>15</maven.compiler.source>
         <maven.compiler.target>15</maven.compiler.target>
+        <main.class.name>Main</main.class.name>
+        <java.version>11</java.version>
     </properties>
 
 
@@ -95,7 +97,7 @@
                 <artifactId>javafx-maven-plugin</artifactId>
                 <version>0.0.5</version>
                 <configuration>
-                    <mainClass>${main.Controllers.StartPageContoller</mainClass>
+                    <mainClass>${main.class.name}</mainClass>
                 </configuration>
             </plugin>
             <plugin>
